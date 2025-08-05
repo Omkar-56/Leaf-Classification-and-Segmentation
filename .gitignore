@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
+
+# Docker-related
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env

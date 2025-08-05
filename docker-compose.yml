@@ -1,0 +1,22 @@
+services:
+  backend:
+    image: omkarpansare/leaf-project-backend:latest
+    container_name: backend
+    ports:
+      - "8000:8000"
+    environment:
+      - TZ=Asia/Kolkata
+    networks:
+      - app-network
+
+  frontend:
+    image: omkarpansare/leaf-project-frontend:latest
+    container_name: frontend
+    ports:
+      - "5173:80"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
