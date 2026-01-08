@@ -24,3 +24,6 @@ build/
 
 # Environment files
 .env
+
+# Zip files
+*.zip
