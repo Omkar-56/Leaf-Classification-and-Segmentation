@@ -7,7 +7,7 @@ This project is a full-stack deep learning web application that detects diseases
 ## Features
 
 -  Image upload with preview
-- 🧠Deep learning-based classification and segmentation (TensorFlow/Keras)
+-  Deep learning-based classification and segmentation (TensorFlow/Keras)
 -  Interactive frontend built with React and Tailwind CSS
 -  Backend API with FastAPI
 -  Fully containerized with Docker and Docker Compose
@@ -34,7 +34,7 @@ Upload a potato leaf image and get instant results:
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Clone the repository
 
